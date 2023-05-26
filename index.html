@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LuizHenA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <style>
         #name{
-            font-family: fantasy;
+            font-family: Secular One, sans-serif;
+            font-weight: 500;
         }
         body{
-            background-color: 393424;
+            background-color:rgb(57, 52, 36);
+            color: white;
+        }
+        p{
+            font-family: fantasy, sans-serif;
+        }
+        .skills-tophic{
+            font-size: 20px;
+        }
+        .button{
+            border-radius: 3px;
+            padding: 2px 10px;
+            background-color: white;
+            color: black;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <ul>
-    <li><a href="#skills">Habilidades</a><br></li>
-    <li><a href="#who-is-me?">Quem sou eu?</a></li>
+    <li class="hyperlink"><a href="#skills">Habilidades</a><br></li>
+    <li class="hyperlink"><a href="#who-is-me?">Quem sou eu?</a></li>
     </ul>
     <div>
     <h1 id="name">Luiz Henrique Alves de Oliveira</h1>
@@ -27,16 +43,16 @@
         <br><em>Pessoa Estudante da Trybe
     </p>
     <h4>Redes Sociais</h4>
-    <a href="https://www.linkedin.com/in/luiz-henrique-alves-de-oliveira-2a2939277/" target="_blank">LinkedIn</a>
+    <a class="button" href="https://www.linkedin.com/in/luiz-henrique-alves-de-oliveira-2a2939277/" target="_blank">LinkedIn</a>
     </div>
     <div>
-        <h4 id="skills">Principais Habilidades</h4>
+        <h4 id="skills" class="skills-tophic">Principais Habilidades</h4>
         <ul>
             <li>Criatividade</li>
             <li>Colaboração</li>
         </ul>
 
-        <h4>Outras Habilidades</h4>
+        <h4 class="skills-tophic">Outras Habilidades</h4>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
